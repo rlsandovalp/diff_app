@@ -1,0 +1,6 @@
+streamlit
+extra_streamlit_components
+numpy
+pandas
+matplotlib.pyplot
+math
