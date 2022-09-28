@@ -67,11 +67,10 @@ C13_cap = C_cap*R_cap/(1+R_cap)
 
 data_file = st.file_uploader("Measurements_file", "txt", False, key="all_data")
 
-if st.button('Plot data'):
-    measurements = np.loadtxt(data_file, skiprows=1)
-    z = measurements[:,0]
-    delta_meas = measurements[:,1]
-
+# if st.button('Plot data'):
+measurements = np.loadtxt(data_file, skiprows=1)
+z = measurements[:,0]
+delta_meas = measurements[:,1]
 
 C12 = np.ones(z.size)
 C13 = np.ones(z.size)
