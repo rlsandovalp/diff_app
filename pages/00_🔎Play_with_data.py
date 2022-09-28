@@ -71,10 +71,11 @@ if st.button('Plot data'):
     measurements = np.loadtxt(data_file, skiprows=1)
     z = measurements[:,0]
     delta_meas = measurements[:,1]
-    C12 = np.ones(z.size)
-    C13 = np.ones(z.size)
 
-    col1,col2 = st.columns([2,2])
 
-    with col2:
-        st.pyplot(isotopes_plot(col1))
+C12 = np.ones(z.size)
+C13 = np.ones(z.size)
+col1,col2 = st.columns([2,2])
+
+with col2:
+    st.pyplot(isotopes_plot(col1))
