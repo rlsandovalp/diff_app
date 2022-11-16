@@ -25,4 +25,12 @@ r"""
 > maximum likelihood calibration of the model parameters. In the page 02, the 
 > acceptance-rejection algorithm is explained and model parameters calibration 
 > is performed. 
+
+
+## Ideas to implement
+- Perform a Sensitivity Analysis of the Diffusion Equation.
+- Check if it is possible to perform an analysis with "molecule fractionation".
+- Perform an stochastic callibration of model parameters with the available data.
+
+
 """
